@@ -4,7 +4,8 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: 1400px; /* Sets a maximum width for the content */
     margin: 0 auto; /* Centers the content horizontally */
-    padding: 0px 32px; /* Adds space inside the container */
+    padding: 0px 1rem; /* Adds space inside the container */
   }

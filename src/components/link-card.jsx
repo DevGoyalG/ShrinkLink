@@ -55,7 +55,7 @@ const LinkCard = ({url = [], fetchUrls}) => {
         <Button
           variant="ghost"
           onClick={() =>
-            navigator.clipboard.writeText(`https://shrinkurls.vercel.app/${url?.short_url}`)
+            navigator.clipboard.writeText(`https://shrinkurls.vercel.app/${url?.custom_url ? url?.custom_url : url.short_url}`)
           }
         >
           <Copy />
