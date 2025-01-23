@@ -1,0 +1,10 @@
+body {
+  margin: 0; /* Removes default browser margins */
+  padding: 0; /* Removes default browser padding */
+}
+
+.container {
+    max-width: 1400px; /* Sets a maximum width for the content */
+    margin: 0 auto; /* Centers the content horizontally */
+    padding: 0px 32px; /* Adds space inside the container */
+  }
