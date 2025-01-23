@@ -40,7 +40,7 @@ const LinkCard = ({url = [], fetchUrls}) => {
           {url?.title}
         </span>
         <span className="text-2xl text-blue-400 font-bold hover:underline cursor-pointer">
-          https://shrinklink.vercel.app/{url?.custom_url ? url?.custom_url : url.short_url}
+          https://shrinkurls.vercel.app/{url?.custom_url ? url?.custom_url : url.short_url}
         </span>
         <span className="flex items-center gap-1 hover:underline cursor-pointer">
           <LinkIcon className="p-1" />
@@ -55,7 +55,7 @@ const LinkCard = ({url = [], fetchUrls}) => {
         <Button
           variant="ghost"
           onClick={() =>
-            navigator.clipboard.writeText(`https://shrinklink.vercel.app/${url?.short_url}`)
+            navigator.clipboard.writeText(`https://shrinkurls.vercel.app/${url?.short_url}`)
           }
         >
           <Copy />

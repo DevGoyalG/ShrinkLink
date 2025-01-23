@@ -23,7 +23,7 @@ const Header = () => {
     
     <nav className='py-4 flex justify-between items-center'>
         <Link to="/">
-        <img src="/logo.png" className="h-16" alt="ShrinkLink Logo" />
+        <img src="/logo.png" className="h-20" alt="ShrinkURLs Logo" />
         </Link>
 
         <div>
@@ -35,7 +35,7 @@ const Header = () => {
                 <Avatar>
             {/* we can add here ... classname="object-contain" after the src tag*/}
                 <AvatarImage src={user?.user_metadata?.profile_pic} />  
-                <AvatarFallback>ShrinkLink</AvatarFallback>
+                <AvatarFallback>ShrinkURLs</AvatarFallback>
                 </Avatar>
               </DropdownMenuTrigger>
               <DropdownMenuContent>
